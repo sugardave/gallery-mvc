@@ -3,7 +3,12 @@ enyo.ready(function() {
 		name: "enyojs.Gallery.DetailPopup",
 		kind: onyx.Popup,
 		layoutKind: enyo.FittableRowsLayout,
-		components: [],
+		bindings: [
+			{from: ".info", to: ".$.cardDetail.controller.info"}
+		],
+		components: [
+			{name: "cardDetail", kind: "enyojs.Gallery.CardDetail", controller: enyo.ObjectController}
+		],
 		create: function() {
 			this.inherited(arguments);
 			this.infoChanged();

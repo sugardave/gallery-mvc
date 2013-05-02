@@ -5,13 +5,14 @@ enyo.kind({
 		{name: "router", kind: enyo.Router, routes: [
 			{handler: "updateView", context: "app", default: true}
 		]},
+		{name: "state", kind: enyo.Controller},
 		{name: "cards", kind: enyo.ArrayController},
 	],
 	view: "enyojs.Gallery.MainView",
 	updateView: function(inPath) {
 		switch (inPath) {
 			case "test":
-				this.set("state", "detailView")
+				this.$.state.set("view", "detailView");
 				break;
 			case "/":
 			default:

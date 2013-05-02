@@ -5,45 +5,125 @@ enyo.ready(function () {
 		kind: enyo.FittableRows,
 		fit: true,
 		bindings: [
-			{from: ".app.state", to: ".$.detailPopup.showing", transform: "transformState"}
+			{from: ".app.controllers.state.view", to: ".$.detailPopup.showing", transform: "transformView"},
+			{from: ".app.controllers.cards.data", to: ".cards", oneWay: false}
 		],
 		components: [
-			{name: "toolbar", kind: onyx.Toolbar, components: [
+			{name: "toolbar", kind: onyx.Toolbar, ontap: "changeState", components: [
 				{tag: "a", attributes: {href: "http://enyojs.com"}, components: [
 					{kind: "Image", src: "assets/enyo-logo.png", classes: "toolbar-logo"}
 				]}
 			]},
-			{name: "detailPopup", kind: "enyojs.Gallery.DetailPopup", info: "foo"},
-		{
-			kind: enyo.Scroller,
-			fit: true,
-			components: [{
-				name: "main",
-				kind: "wip.Repeater",
-				controller: ".app.controllers.messages",
-				components: [{
-					classes: "nice-padding",
-					bindFrom: "message"
-				}]
-			}]
-		}, {
-			kind: onyx.Toolbar,
-			components: [{
-				kind: onyx.Button,
-				content: "Record Entry",
-				ontap: "addRecord"
-			}, {
-				kind: onyx.InputDecorator,
-				components: [{
-					name: "input",
-					kind: onyx.Input,
-					placeholder: "Watch bindings work"
-				}]
-			}]
-		}],
-		transformState: function(inState) {
-			if (inState === "detailView") return true;
+			{kind: enyo.Scroller, fit: true, classes: "main", ondragfinish: "preventTap", components: [
+				// using media query to determine which one should be displayed
+				{name: "cards", classes: "cards"},
+				{name: "list", classes: "list"}
+			]},
+			{name: "detailPopup", kind: "enyojs.Gallery.DetailPopup", showing: false, centered: true, modal: true, floating: true, info: "foo"},
+		],
+		changeState: function(inSender, inEvent) {
+			app.controllers.state.set("view", "detailView");
+			return true;
+		},
+		cardsChanged: function() {
+			this.log("THESE ARE THE CARDS WE HAVE:");
+			this.log(this.cards);
+			if (this.cards.length) {
+				this.renderItems();
+			}
+		},
+		transformView: function(inView) {
+			this.log(arguments);
+			this.log(app);
+			if (inView === "detailView") return true;
 			return false;
+		},
+		renderItems: function(customItems) {
+			this.$.cards.destroyClientControls();
+			this.$.list.destroyClientControls();
+			//
+			var items = customItems || this.cards;
+			//
+			// to sorted by submission date array
+			items = this.toDateSortedArray(items);
+			//
+			for (var i=0, w; (w=items[i]); i++) {
+				var more = {info: w, ontap: "itemTap"};
+				this.createComponent({kind: "enyojs.Gallery.Card", container: this.$.cards}, more);
+				this.createComponent({kind: "enyojs.Gallery.ListItem", container: this.$.list}, more);
+			}
+			// to make cards in last row left-aligned
+			for (i=0; i<3; i++) {
+				this.createComponent({kind: "enyojs.Gallery.Card", container: this.$.cards, classes: "card-empty"});
+			}
+			this.$.cards.render();
+			this.$.list.render();
+		},
+		toDateSortedArray: function(inItems) {
+			var ls = [];
+			for (var n in inItems) {
+				ls.push(inItems[n]);
+			}
+			ls.sort(function(i1, i2) {
+				var d1 = new Date(i1.submissionDate);
+				var d2 = new Date(i2.submissionDate);
+				if (d1 > d2) {
+					return -1;
+				} else if (d1 < d2) {
+					return 1;
+				} else {
+					return 0;
+				}
+			});
+			return ls;
+		},
+		preventTap: function(inSender, inEvent) {
+			inEvent.preventTap();
+		}
+	});
+
+	enyo.kind({
+		name: "enyojs.Gallery.ListItem",
+		classes:"listitem",
+		published: {
+			info: ""
+		},
+		components: [
+			{name: "name", classes: "name"},
+			{name: "owner", classes: "owner"}
+		],
+		create: function() {
+			this.inherited(arguments);
+			this.infoChanged();
+		},
+		infoChanged: function() {
+			var i = this.info;
+			if (!i) {
+				return;
+			}
+			this.$.name.setContent(i.displayName);
+			this.$.owner.setContent("by " + i.owner.name);
+		}
+	});
+
+	enyo.kind({
+		name: "enyojs.Gallery.Card",
+		kind: "enyojs.Gallery.ListItem",
+		kindClasses: "card",
+		components: [
+			{classes: "card-topbar", components: [
+				{name: "name", classes: "name"},
+				{name: "owner", classes: "owner"}
+			]},
+			{classes: "icon-holder", components: [
+				{name: "icon", kind: "Image", classes: "icon"}
+			]}
+		],
+		infoChanged: function() {
+			this.inherited(arguments);
+			if (this.info) {
+				this.$.icon.setSrc("assets/gallery_images/" + this.info.name + ".jpg");
+			}
 		}
 	});
 	
