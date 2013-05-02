@@ -26,15 +26,11 @@ enyo.ready(function () {
 			return true;
 		},
 		cardsChanged: function() {
-			this.log("THESE ARE THE CARDS WE HAVE:");
-			this.log(this.cards);
 			if (this.cards.length) {
 				this.renderItems();
 			}
 		},
 		transformView: function(inView) {
-			this.log(arguments);
-			this.log(app);
 			if (inView === "detailView") return true;
 			return false;
 		},
@@ -48,9 +44,12 @@ enyo.ready(function () {
 			items = this.toDateSortedArray(items);
 			//
 			for (var i=0, w; (w=items[i]); i++) {
-				var more = {info: w, ontap: "itemTap"};
-				this.createComponent({kind: "enyojs.Gallery.Card", container: this.$.cards}, more);
-				this.createComponent({kind: "enyojs.Gallery.ListItem", container: this.$.list}, more);
+				//var more = {info: w, ontap: "itemTap"};
+				var info = w;
+				var cc = new enyojs.Gallery.CardController();
+				this.createComponent({kind: "enyojs.Gallery.Card", container: this.$.cards, controller: cc, ontap: "itemTap"});
+				this.createComponent({kind: "enyojs.Gallery.ListItem", container: this.$.list, controller: cc, ontap: "itemTap"});
+				cc.set("data", info);
 			}
 			// to make cards in last row left-aligned
 			for (i=0; i<3; i++) {
@@ -77,6 +76,10 @@ enyo.ready(function () {
 			});
 			return ls;
 		},
+		itemTap: function(inSender) {
+			this.log(inSender.info.name);
+			return true;
+		},
 		preventTap: function(inSender, inEvent) {
 			inEvent.preventTap();
 		}
@@ -85,16 +88,18 @@ enyo.ready(function () {
 	enyo.kind({
 		name: "enyojs.Gallery.ListItem",
 		classes:"listitem",
-		published: {
-			info: ""
-		},
+		bindings: [
+			{from: ".controller.data", to: ".info"}
+		],
 		components: [
 			{name: "name", classes: "name"},
 			{name: "owner", classes: "owner"}
 		],
-		create: function() {
-			this.inherited(arguments);
-			this.infoChanged();
+		transformData: function(inData) {
+			if (inData && inData.info) {
+				inData = inData.info;
+			}
+			return inData;
 		},
 		infoChanged: function() {
 			var i = this.info;
