@@ -1,0 +1,1798 @@
+{
+    "owners": {
+        "Rahien": {
+            "name": "Rahien",
+            "website": "https://github.com/Rahien",
+            "twitter": ""
+        },
+        "tjwebb": {
+            "name": "NBT Solutions",
+            "website": "http://www.nbtsolutions.com",
+            "twitter": "NBTSolutions"
+        },
+        "rwatkins": {
+            "name": "Ryan Watkins",
+            "website": "http://www.ryanwatkins.net",
+            "twitter": "ryanwatkins"
+        },
+        "omastudios": {
+            "name": "Jack Newcombe",
+            "website": "http://oma-studios.co.uk/",
+            "twitter": "omastudios"
+        },
+        "MaKleSoft": {
+            "name": "MaKleSoft",
+            "website": "http://maklesoft.com/",
+            "twitter": "MaKleSoft"
+        },
+        "villo": {
+            "name": "Villo Labs",
+            "website": "http://villo.me/labs/",
+            "twitter": "villo"
+        },
+        "germboy": {
+            "name": "germboy",
+            "website": "http://www.variablelimit.com/",
+            "twitter": "germboy"
+        },
+        "MacFJA": {
+            "name": "MacFJA",
+            "website": "",
+            "twitter": ""
+        },
+        "morethanreal": {
+            "name": "morethanreal",
+            "website": "",
+            "twitter": "morethanreal"
+        },
+        "isandunk": {
+            "name": "isandunk",
+            "website": "http://www.duncanstevenson.com/",
+            "twitter": ""
+        },
+        "JayCanuck": {
+            "name": "Jason Robitaille",
+            "website": "http://canuckcoding.ca/",
+            "twitter": "JayCanuck"
+        },
+        "MachiApps": {
+            "name": "MachiApps",
+            "website": "http://www.machiapps.com",
+            "twitter": "MachiApps"
+        },
+        "onecrayon": {
+            "name": "One Crayon",
+            "website": "http://onecrayon.com/",
+            "twitter": "ianbeck"
+        },
+        "webOS101": {
+            "name": "Roy Sutton",
+            "website": "http://webos101.com",
+            "twitter": "pre101"
+        },
+        "GlitchTechScience": {
+            "name": "GlitchTech Science",
+            "website": "http://glitchtechscience.com/",
+            "twitter": "GlitchTech"
+        },
+        "newness": {
+            "name": "Newness Developments",
+            "website": "http://www.newnessdevelopments.com/",
+            "twitter": "newnessdevs"
+        },
+        "sfeast": {
+            "name": "sfeast",
+            "website": "",
+            "twitter": ""
+        },
+        "rok": {
+            "name": "Robert Kowalski",
+            "website": "http://robert-kowalski.de",
+            "twitter": "robinson_k"
+        },
+        "whatfield73": {
+            "name": "Will Hatfield",
+            "website": "http://designtechllc.com",
+            "twitter": "cbcames"
+        },
+        "fxspec06": {
+            "name": "Bryan Leasot",
+            "website": "",
+            "twitter": "fxspec06"
+        },
+        "ShiftyAxel": {
+            "name": "Josh Palmer",
+            "website": "",
+            "twitter": "ShiftyAxel"
+        },
+        "sugardave": {
+            "name": "sugardave",
+            "website": "http://app.sugardave.com",
+            "twitter": "sugar_dave"
+        },
+        "JMTK": {
+            "name": "JMTK",
+            "website": "http://jmtk.us.to/",
+            "twitter": "@jakemorrison24"
+        },
+        "phated": {
+            "name": "Blaine Bublitz",
+            "website": "http://www.iceddev.com",
+            "twitter": "BlaineBublitz"
+        },
+        "ryanjduffy": {
+            "name": "ryanjduffy",
+            "website": "http://blog.technisode.com",
+            "twitter": "ryanjduffy"
+        },
+        "DougReeder": {
+            "name": "Doug Reeder",
+            "website": "http://hominidsoftware.com/",
+            "twitter": "reeder29"
+        },
+        "appsbychris": {
+            "name": "Chris Van Hooser",
+            "website": "http://appsbychris.net/"
+        },
+        "pcimino": {
+            "name": "Paul L. Cimino",
+            "website": "http://translunardesigns.com",
+            "twitter": "PLCimino"
+        },
+        "webosports": {
+            "name": "WebOS Ports",
+            "website": "http://webos-ports.org/wiki/",
+            "twitter": "webosports"
+        },
+        "cayasso": {
+            "name": "Jonathan Brumley",
+            "website": "https://github.com/cayasso",
+            "twitter": "cayasso"
+        },
+        "jjacobsohn": {
+            "name": "Johann Jacobsohn",
+            "website": "https://github.com/johannjacobsohn",
+            "twitter": ""
+        }
+    },
+    "widgets": [
+        {
+            "name": "rahien.ReorderableList",
+            "displayName": "Reorderable List",
+            "owner": "Rahien",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "layout",
+                    "version": "2.x"
+                }
+            ],
+            "url": "https://github.com/Rahien/enyo-ReorderableList.git",
+            "demoUrl": "http://rahien.github.com/enyo-ReorderableList/example.html",
+            "submissionDate": "Oct 4, 2012",
+            "testedPlatforms": "Chromium 18.0.1025.168 and 20.0.1132.47 (linux), Firefox 15.0.1 (linux, windows 7), Opera 12.02 (linux, windows 7), Firefox for mobile v. 15.0 (android 2.3), Safari IOS 5.1.1 (ipod), IE 9 (warning: mystical move event prevents dragging in one movement, two clicks are required) (windows 7), Chrome 21.0.1180.89 (windows 7)",
+            "license": "MIT",
+            "version": "1.0",
+            "blurb": "This component is a multi-purpose extension of the enyojs list component. It allows the user to select items in the list by holding, pull them out and insert them at another location. All using drag and drop."
+        },
+        {
+            "name": "nbt.OpenLayers",
+            "displayName": "OpenLayers Control",
+            "owner": "tjwebb",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "OpenLayers",
+                    "version": "2.x"
+                }
+            ],
+            "url": "https://github.com/NBTSolutions/enyo-openlayers",
+            "demoUrl": "http://dev.nbtsolutions.net/enyo-openlayers/",
+            "submissionDate": "Sept 7, 2012",
+            "testedPlatforms": "All",
+            "license": "LGPL 3",
+            "version": "1.0",
+            "blurb": "Enyo 2 Control for OpenLayers (openlayers.org)"
+        },
+        {
+            "name": "rwatkins.MenuPane",
+            "displayName": "MenuPane Control",
+            "owner": "rwatkins",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "layout",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/ryanwatkins/menupane",
+            "demoUrl": "http://www.ryanwatkins.net/software/menupane",
+            "submissionDate": "Mar 17, 2012",
+            "testedPlatforms": "Android 2+, iOS 5+, Chrome 17+, Safari 5.1+, Firefox 10+",
+            "license": "Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.",
+            "version": "1",
+            "blurb": "An Enyo 2.0 control for managing Pane/View swapping via animated menus on the left and right of the Pane - much like the menu UI component used in the Path and Facebook apps on iOS and Android.  It takes a set of views to swap between, much like a simplified 1.0 Pane/View control. But also takes a set of controls to compose the left or right menus and animates the display of the menus. It does nice little things, like if you click a menu item it \"pushes out\" the view before doing the swap, or just closed the menu if the selection hasn't changed."
+        },
+        {
+            "name": "omastudios.Storage",
+            "displayName": "LocalStorage Wrapper",
+            "owner": "omastudios",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "http://forums.enyojs.com/discussion/comment/468#Comment_468",
+            "submissionDate": "Feb 12, 2012",
+            "testedPlatforms": "Unknown",
+            "license": "Unknown",
+            "version": "1",
+            "blurb": "Simple wrapper around browser localStorage."
+        },
+        {
+            "name": "MaKleSoft.AnimatedToggleButton",
+            "displayName": "Animated Togglebuttons",
+            "owner": "MaKleSoft",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MaKleSoft/enyo-plugins/blob/master/v2/AnimatedToggleButton",
+            "demoUrl": "http://maklesoft.com/enyo-plugins/v2/AnimatedToggleButton/example.html",
+            "submissionDate": "Mar 3, 2012",
+            "testedPlatforms": "Google Chrome, Safari, IE 9",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "1",
+            "blurb": "An extension fo the ToggleButton kind that animates between the on and off position and allows actual dragging of the knob."
+        },
+        {
+            "name": "villo.Book",
+            "displayName": "Books for Enyo 2",
+            "owner": "villo",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/villo/Labs/tree/master/Books",
+            "demoUrl": "http://villo.me/labs/projects/books/example/",
+            "submissionDate": "Mar 4, 2012",
+            "testedPlatforms": "Chrome, Safari, Firefox, IE",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "1",
+            "blurb": "Books aims to replicate the Pane kind found in Enyo 1. Books create a collection of \"Pages\", with given page numbers and names that you can move between."
+        },
+        {
+            "name": "germboy.Textarea",
+            "displayName": "Enyo Textarea control",
+            "owner": "germboy",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/germboy/Enyo2CustomControls",
+            "demoUrl": "http://www.variablelimit.com/enyo/samples/textarea-onyx/",
+            "submissionDate": "Mar 2, 2012",
+            "testedPlatforms": "Unknown",
+            "license": "Unknown",
+            "version": "1",
+            "blurb": "A simple textarea control, including a version with Onyx styling."
+        },
+        {
+            "name": "germboy.Progress",
+            "displayName": "Enyo Progress controls",
+            "owner": "germboy",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/germboy/Enyo2CustomControls",
+            "demoUrl": "http://www.variablelimit.com/enyo/samples/progressplayground-onyx/",
+            "submissionDate": "Mar 9, 2012",
+            "testedPlatforms": "Unknown",
+            "license": "Unknown",
+            "version": "1",
+            "blurb": "A set of progress controls (Progress, ProgressBar, and ProgressButton) with Onyx styling."
+        },
+        {
+            "name": "MacFJA.TextArea",
+            "displayName": "Onyx themed Textarea",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/textarea.html",
+            "submissionDate": "Mar 7, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.5 (Mac), Google Chrome 17.0.963.56 (Mac), Safari (iOS 5.1)",
+            "license": "Apache 2.0",
+            "version": "1.1",
+            "blurb": "A TextArea control (based on onyx.Input) that automatically resizes. (Prefer MacFJA.GrowTextBox)"
+        },
+        {
+            "name": "morethanreal.GoogleMap",
+            "displayName": "Enyo Google Maps control",
+            "owner": "morethanreal",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/morethanreal/enyo-googlemap",
+            "submissionDate": "Feb 2, 2012",
+            "testedPlatforms": "Chrome, Safari",
+            "license": "Unknown",
+            "version": "1",
+            "blurb": "A Google Map control for Enyo 2."
+        },
+        {
+            "name": "isandunk.onyx-graphical-assets",
+            "displayName": "Onyx Graphical Assets",
+            "owner": "isandunk",
+            "dependencies": [],
+            "url": "https://github.com/isandunk/Onyx-Graphical-Assets",
+            "demoUrl": "https://github.com/isandunk/Onyx-Graphical-Assets/blob/master/Onyx-Icons.png",
+            "submissionDate": "Mar 9, 2012",
+            "testedPlatforms": "Unknown",
+            "license": "Unknown",
+            "version": "1",
+            "blurb": "This is a selection of icons for Onyx, the widget library for EnyoJS. It is an attempt provide the community with a method of consistenty reproducing the interface icons that appear in many of the original Enyo 1.0 applications."
+        },
+        {
+            "name": "MaKleSoft.SelectDecorator",
+            "displayName": "SelectDecorator kind",
+            "owner": "MaKleSoft",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MaKleSoft/enyo-plugins/tree/master/v2/SelectDecorator",
+            "demoUrl": "http://maklesoft.com/enyo-plugins/v2/SelectDecorator/example.html",
+            "submissionDate": "Mar 26, 2012",
+            "testedPlatforms": "Google Chrome, Safari, IE 9",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "1",
+            "blurb": "For one of my current projects I needed a way to style select elements so I came up with a SelectDecorator kind that can be wrapped around Select kinds to provide onyx-like styling. It works similar to the InputDecorator kind.  Note that the SelectDecorator does not style the actual selection popup."
+        },
+        {
+            "name": "MacFJA.LevelProgress",
+            "displayName": "LevelProgress & RatingLevel control",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/level.html",
+            "submissionDate": "Mar 26, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.5 (Mac), Google Chrome 17.0.963.56 (Mac), Safari (iOS 5.1)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "2 controls (the second based on the first) to display level progress bar and a rating bar. Features live value change by clicking or \"sliding\", and critical value and warning value for \"LevelProgress\"."
+        },
+        {
+            "name": "MacFJA.UpDown",
+            "displayName": "Up and down control",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/updown.html",
+            "submissionDate": "Mar 30, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.5 (Mac), Google Chrome 17.0.963.56 (Mac), Safari (iOS 5.1)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A Up and Down control, maintaining the cursor increase progressively the event speed."
+        },
+        {
+            "name": "MacFJA.NavigationBar",
+            "displayName": "Navigation/Path Bar",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/navigationbar.html",
+            "submissionDate": "Mar 30, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.5 (Mac), Google Chrome 17.0.963.56 (Mac), FireFox 11.0 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.1",
+            "blurb": "A path bar, that can be used as an history navigation bar"
+        },
+        {
+            "name": "JayCanuck.XmlpRequest",
+            "displayName": "XmlpRequest",
+            "owner": "JayCanuck",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "JsonpRequest",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/JayCanuck/enyo-2-components/tree/master/xmlprequest",
+            "demoUrl": "http://jaycanuck.github.com/enyo-2-components/xmlprequest/demo.html",
+            "submissionDate": "April 2, 2012",
+            "testedPlatforms": "Firefox 11.0 (Windows), Google Chrome 18.0.1025.142 (Windows),  Internet Explorer 9.0.8112.16421 (Windows)",
+            "license": "MIT License",
+            "version": "1.0",
+            "blurb": "Cross-domain fetching of xml data, via YQL, returned converted into json format."
+        },
+        {
+            "name": "JayCanuck.YqlpRequest",
+            "displayName": "YqlpRequest",
+            "owner": "JayCanuck",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "JsonpRequest",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/JayCanuck/enyo-2-components/tree/master/yqlprequest",
+            "demoUrl": "http://jaycanuck.github.com/enyo-2-components/yqlprequest/demo.html",
+            "submissionDate": "April 9, 2012",
+            "testedPlatforms": "Firefox 11.0 (Windows), Google Chrome 18.0.1025.142 (Windows),  Internet Explorer 9.0.8112.16421 (Windows)",
+            "license": "MIT License",
+            "version": "1.0",
+            "blurb": "Cross-domain fetching of YQL queries, returned in json format. More information on YQL format can be found at http://developer.yahoo.com/yql/ and an expansive collection of YQL data tables can be found at http://www.datatables.org"
+        },
+        {
+            "name": "JayCanuck.webOSExt",
+            "displayName": "webOSExt",
+            "owner": "JayCanuck",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/JayCanuck/enyo-2-components/tree/master/webos-ext",
+            "demoUrl": "http://jaycanuck.github.com/enyo-2-components/webos-ext/demo.html",
+            "submissionDate": "April 9, 2012",
+            "testedPlatforms": "webOS 3.0.5",
+            "license": "MIT License",
+            "version": "1.0",
+            "blurb": "webOSExt provides Enyo2 binding for an assortment of Mojo/Enyo1 webOS-exclusive API, including screen orientation, banner notifications, launch parameters, deviceinfo, palm service requests, etc."
+        },
+        {
+            "name": "JayCanuck.JavaApplet",
+            "displayName": "JavaApplet",
+            "owner": "JayCanuck",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": "Java 1.5 or greater"
+                }
+            ],
+            "url": "https://github.com/JayCanuck/enyo-2-components/tree/master/javaapplet",
+            "demoUrl": "http://jaycanuck.github.com/enyo-2-components/javaapplet/demo.html",
+            "submissionDate": "April 22, 2012",
+            "testedPlatforms": "Firefox 11.0 (Windows), Google Chrome 18.0.1025.142 (Windows),  Internet Explorer 9.0.8112.16421 (Windows)",
+            "license": "MIT License",
+            "version": "1.0",
+            "blurb": "Java applets brought to Enyo2, with enhanced support for 2-way communication of data between the Java applet and javascript Enyo2 code. Requires the use of EnyoApplet/EnyoJApplet (instead of Applet/JApplet), included on the git prepackaged into the EnyoApplet.jar library."
+        },
+        {
+            "name": "JayCanuck.FileInputDecorator",
+            "displayName": "FileInputDecorator",
+            "owner": "JayCanuck",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/JayCanuck/enyo-2-components/tree/master/fileinputdecorator",
+            "demoUrl": "http://jaycanuck.github.com/enyo-2-components/fileinputdecorator/demo.html",
+            "submissionDate": "Nov 13, 2012",
+            "testedPlatforms": "Firefox 16.0.2 (Windows), Google Chrome 23.0.1271.64 (Windows),  Internet Explorer 9.0.8112.16421 (Windows)",
+            "license": "MIT License",
+            "version": "1.0",
+            "blurb": "Allows for improved customizable file input, with support for filetype filters, multiple file selection, html5 media capture across a wide breadth of browsers, including iOS6 and Android 3.x+. Note: filetype filters, multiple file support, and media capture not supported in IE."
+        },
+        {
+	    "name": "JayCanuck.WebAppInstaller",
+	    "displayName": "WebAppInstaller",
+	    "owner": "JayCanuck",
+	    "dependencies": [
+		{
+		    "name": "Enyo 2",
+		    "version": ""
+		},
+		{
+		    "name": "Onyx",
+		    "version": ""
+		}
+	    ],
+	    "url": "https://github.com/JayCanuck/enyo-2-components/tree/master/webappinstaller",
+	    "demoUrl": "http://enyo2-sampler.canuckcoding.ca/",
+	    "submissionDate": "Jan 23, 2013",
+	    "testedPlatforms": "Firefox 18.0.1 (Windows), Firefox 17.0 (Android), FirefoxOS 1.0.0-prerelease (platform v18.0), Google Chrome 24.0.1312.52 (Windows), iOS 6.0.1",
+	    "license": "MIT License",
+	    "version": "1.0",
+	    "blurb": "Unified web app installation library for Firefox, Firefox for Android, FirefoxOS, Chrome, and iOS. Includes a WebAppButton control that hides (or turns into an Update button) onces the web app is installed or on unsupported browsers. Inspired by the installation library in Mozilla's mortar app stub."
+        },
+        {
+	    "name": "JayCanuck.Fader",
+	    "displayName": "Fader",
+	    "owner": "JayCanuck",
+	    "dependencies": [
+		{
+		    "name": "Enyo 2",
+		    "version": ""
+		}
+	    ],
+	    "url": "https://github.com/JayCanuck/enyo-2-components/tree/master/fader",
+	    "demoUrl": "http://jaycanuck.github.com/enyo-2-components/fader/demo.html",
+	    "submissionDate": "Feb 4, 2013",
+	    "testedPlatforms": "Firefox 18.0.1 (Windows), Google Chrome 24.0.1312.52 (Windows),  Internet Explorer 9.0.8112.16421 (Windows)",
+	    "license": "MIT License",
+	    "version": "1.0",
+	    "blurb": "A wrapper component that provides animated fading functionality. Works on all browsers that Enyo2 supports and includes a static function, enyo.Fader.attachTo(), that attaches a fader functionality to a control itself."
+        },
+        {
+            "name": "MacFJA.Localize",
+            "displayName": "Localization module",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/localize",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/localize/example/index.html",
+            "submissionDate": "Apr 6, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.5 (Mac), Google Chrome 17.0.963.56 (Mac), FireFox 11.0 (Mac)",
+            "license": "Apache 2.0",
+            "version": "2.3",
+            "blurb": "Localize your Enyo 2 app"
+        },
+        {
+            "name": "MacFJA.GradientSlider",
+            "displayName": "Gradient Slider",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/sliders.html",
+            "submissionDate": "Apr 7, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.5 (Mac), Google Chrome 18.0.1025.151 (Mac), FireFox 11.0 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "Simple extension to slider, that provide gradient display"
+        },
+        {
+            "name": "germboy.Accordion",
+            "displayName": "Accordion Control",
+            "owner": "germboy",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/germboy/Accordion",
+            "demoUrl": "http://www.variablelimit.com/enyo/lib/germboy/Accordion/examples/accordion-stretched/",
+            "submissionDate": "Apr 11, 2012",
+            "testedPlatforms": "Google Chrome 18.0.1025.152 m (Windows), Google Chrome 18.0.1025.151 (Mac), Internet Explorer 9, Safari 5.1.5 (Mac), webOS 3.0.5, iOS 5+, Windows Phone 7.5 IE, Android 4.0.3, Google Chrome Beta 16.0.912.77 (Android)",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "1.0",
+            "blurb": "An accordion control for Enyo 2. Only 1 item can be open at a time, however all items can be closed at the same time."
+        },
+        {
+            "name": "MacFJA.DynamicList",
+            "displayName": "Dynamic loaded list",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/dynamiclist.html",
+            "submissionDate": "Apr 14, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.5 (Mac), Google Chrome 18.0.1025.151 (Mac), FireFox 11.0 (Mac), IE 9.0.8112.16421 (Windows)",
+            "license": "Apache 2.0",
+            "version": "1.2",
+            "blurb": "A list that load only visible row"
+        },
+        {
+            "name": "MachiApps.DatePicker",
+            "displayName": "Date Picker",
+            "owner": "MachiApps",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MachiApps/Enyo-2-Components",
+            "demoUrl": "http://www.machiapps.com/Components/Cal.html",
+            "submissionDate": "Apr 15, 2012",
+            "testedPlatforms": "Safari 5.1.5 (Windows), Google Chrome 18.0.1025.152 (Windows)",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "2.0",
+            "blurb": "Date Picker"
+        },
+        {
+            "name": "MachiApps.CalendarSelector",
+            "displayName": "Calendar Date Picker",
+            "owner": "MachiApps",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MachiApps/Enyo-2-Components",
+            "demoUrl": "http://www.machiapps.com/Components/Cal.html",
+            "submissionDate": "Apr 15, 2012",
+            "testedPlatforms": "Safari 5.1.5 (Windows), Google Chrome 18.0.1025.152 (Windows)",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "2.0",
+            "blurb": "A Date Picker which includes a calendar"
+        },
+        {
+            "name": "onecrayon.Database",
+            "displayName": "SQLite Database class",
+            "owner": "onecrayon",
+            "dependencies": [],
+            "url": "https://github.com/onecrayon/database-webos",
+            "demoUrl": "",
+            "submissionDate": "Apr 16, 2012",
+            "testedPlatforms": "webOS 1.4 - 3.0, Safari and other browsers supporting WebSQL API",
+            "license": "MIT",
+            "version": "2.1.0",
+            "blurb": "A class to ease working with HTML5 SQLite databases in Enyo and beyond"
+        },
+        {
+            "name": "germboy.DateScroller",
+            "displayName": "Date Scroller Calendar Control",
+            "owner": "germboy",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Fittable",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/germboy/DateScroller",
+            "demoUrl": "http://www.variablelimit.com/enyo/lib/germboy/DateScroller/examples/DateScroller/",
+            "submissionDate": "Apr 18, 2012",
+            "testedPlatforms": "Google Chrome 18.0.1025.152 m (Windows), Google Chrome 18.0.1025.151 (Mac), Internet Explorer 9, Safari 5.1.5 (Mac), Firefox 11 (Win & Mac), webOS 3.0.5, iOS 5+, Android 4.0.3, Google Chrome Beta 16.0.912.77 (Android), Windows Phone 7.5 IE*, webOS 2* - *Tap support only",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "1.1",
+            "blurb": "A date scroller calendar control for Enyo 2. Scroll through the columns or tap on row items to scroll to that date."
+        },
+        {
+            "name": "rwatkins.SnapScroller",
+            "displayName": "SnapScroller Control",
+            "owner": "rwatkins",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/ryanwatkins/snapscroller",
+            "demoUrl": "http://www.ryanwatkins.net/software/snapscroller",
+            "submissionDate": "Apr 18, 2012",
+            "testedPlatforms": "Android 2+, iOS 5+, Chrome 17+, Safari 5.1+, Firefox 10+",
+            "license": "Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.",
+            "version": "1",
+            "blurb": "An Enyo 2.0 Scroller control that 'snaps' to specific scroll positions for the controls it contains when released.  Similar to the Enyo 1.0 SnapScroller control."
+        },
+        {
+            "name": "gts.DatePicker",
+            "displayName": "Calendar Date Picker",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                },
+                {
+                    "name": "Layout/Fittable",
+                    "version": ""
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/DatePicker",
+            "demoUrl": "http://jsfiddle.net/glitchtechscience/SCknQ/",
+            "submissionDate": "Apr 19, 2012",
+            "testedPlatforms": "webOS 3.0.5, Chrome 18 (Windows), Firefox (Windows), Internet Explorer 9",
+            "license": "Apache License, Version 2.0",
+            "version": "2.0.0",
+            "blurb": "Calendar style date picker for EnyoJS. This kind uses native Onyx and Layout/Fittable components to reduce dependencies and keep the style similar to the rest of Enyo's UI components. GTS.DatePicker uses a standard JavaScript date object for its value. *Update* Now has a client control area for easy visual integration of gts.TimePicker. The time picker will still require seperate handling."
+        },
+        {
+            "name": "com.Pre101.Masonry",
+            "displayName": "Masonry Layout Control",
+            "owner": "webOS101",
+            "dependencies": [],
+            "url": "https://github.com/webOS101/Enyo-Masonry",
+            "demoUrl": "http://dynaptic.com/enyo/Masonry/examples/SingleColumn.html",
+            "submissionDate": "Apr 19, 2012",
+            "testedPlatforms": "Tested in: Chrome 18 (Mac/PC), Safari 5 (Mac), Firefox 3.6 (Mac), Firefox 11 (Mac/PC), Opera 11 (PC), Internet Explorer 9 (PC), webOS 3.0.5, Windows Phone 7.5, iOS 5.1, Android 4",
+            "license": "MIT",
+            "version": "1",
+            "blurb": "The Masonry Layout kind is a port of the Vanilla Masonry from David DeSandro. It provides dynamic layout of a container's contents based on the sizes of the contents. It does its best to fit the contents as if they were bricks being arranged into a wall, hence the name Masonry."
+        },
+        {
+            "name": "MachiApps.Checkboxes",
+            "displayName": "Colored Checkboxes",
+            "owner": "MachiApps",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MachiApps/Enyo-2-Components",
+            "demoUrl": "http://machiapps.com/Components/CheckBoxes.html",
+            "submissionDate": "Apr 21, 2012",
+            "testedPlatforms": "Safari 5.1.5 (Windows), Google Chrome 18.0.1025.152 (Windows)",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "2.0",
+            "blurb": "Allows you to set a color to checkboxes.  Extends onyx.Checkbox.  Can set just 'color', or both 'checkedColor' and 'uncheckedColor'"
+        },
+        {
+            "name": "newness.Calliope",
+            "displayName": "Calliope Visual Editor",
+            "owner": "newness",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/Newness/Enyo-Calliope",
+            "demoUrl": "http://www.newnessdevelopments.com/demos/calliope",
+            "submissionDate": "Apr 21, 2012",
+            "testedPlatforms": "Chrome 18+, Safari 5.1+, Firefox 5+",
+            "license": "Apache 2.0",
+            "version": "0.1",
+            "blurb": "An Enyo 2.0 extensible rich text editor."
+        },
+        {
+            "name": "MacFJA.Notification",
+            "displayName": "Notification",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Animator",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/notification",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/notification/index.html",
+            "submissionDate": "Apr 22, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.5 (Mac), Google Chrome 18.0.1025.151 (Mac), FireFox 11.0 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.1",
+            "blurb": "A notification center, inspered by Growl and other"
+        },
+        {
+            "name": "newness.InfiniteSlidingPane",
+            "displayName": "Infinite SlidingPane",
+            "owner": "newness",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx"
+                }
+            ],
+            "url": "https://github.com/Newness/Labs/tree/master/InfiniteSlidingPane",
+            "demoUrl": "http://www.newnessdevelopments.com/demos/infiniteslidingpane",
+            "submissionDate": "Apr 25, 2012",
+            "testedPlatforms": "Chrome 18+ (Mac), Safari 5.1+ (Mac), Firefox 5+ (Mac), iOS 5+, webOS 3+",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "Infinite SlidingPane, as seen on TV, and Facebook apps on webOS and iOS."
+        },
+        {
+            "name": "sfeast.SelectableRepeaters",
+            "displayName": "Selectable Repeaters",
+            "owner": "sfeast",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/sfeast/SelectableRepeaters",
+            "demoUrl": "http://apps.stevenf.webfactional.com/examples/enyo/SelectableRepeaters/examples/MultiSelectableRepeater/",
+            "submissionDate": "Apr 26, 2012",
+            "testedPlatforms": "Google Chrome 18.0.1025.162 m (Windows), Google Chrome 18.0.1025.165 (Mac), Safari 5.1.2 (Mac), Firefox 12 (Win & Mac), iOS 5.1, Android 2.3.6",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "1.0",
+            "blurb": "Repeater controls for Enyo 2 that allows for single and multi-selectable rows"
+        },
+        {
+            "name": "MachiApps.ColorPicker",
+            "displayName": "Color Picker",
+            "owner": "MachiApps",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MachiApps/Enyo-2-Components",
+            "demoUrl": "http://machiapps.com/Components/ColorPicker.html",
+            "submissionDate": "May 9, 2012",
+            "testedPlatforms": "Safari 5.1.5 (Windows), Google Chrome 18.0.1025.152 (Windows)",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "2.0",
+            "blurb": "Pretty Basic Color Picker"
+        },
+        {
+            "name": "rok.geolocation",
+            "displayName": "Geolocation",
+            "owner": "rok",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/robertkowalski/enyo-geolocation",
+            "demoUrl": "http://robertkowalski.github.com/enyo-geolocation/",
+            "submissionDate": "May 13, 2012",
+            "testedPlatforms": "Firefox 12.0 (Linux), Chrome 18.0.1025.168 (Linux), webOS 3.0.5 Browser, Android 2.1 Emulator, mobile Safari (iOS 5.1), iOS 5.1 (Phonegap)",
+            "license": "New BSD",
+            "version": "1.0",
+            "blurb": "Geolocation for Enyo - Phonegap compatible"
+        },
+        {
+            "name": "whatfield73.webserviceclassic",
+            "displayName": "WebService Classic",
+            "owner": "whatfield73",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/whatfield73/webservice/",
+            "submissionDate": "May 17, 2012",
+            "testedPlatforms": "Chrome 19",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "This is mostly to help ease porting Enyo 1.0 apps and to an extent Mojo apps.  Simply replace 'components' in the Webservice object with 'published' and get rid of the '[]' around the components.  Should just work after that.  Haven't tested to a great degree so let me know if you run into problems.  this.service will give you access to the xhr object if you need to debug."
+        },
+        {
+            "name": "whatfield73.localstoragedb",
+            "displayName": "LocalStorage DB",
+            "owner": "whatfield73",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/whatfield73/db/",
+            "demoUrl": "http://jsfiddle.net/dCuUg/1/",
+            "submissionDate": "June 7, 2012",
+            "testedPlatforms": "Chrome 19",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "This is mostly to help ease using localStorage as a simple database also in helping port 1.0 apps using db8.  See the example on jsfiddle."
+        },
+        {
+            "name": "fxspec06.Alert",
+            "displayName": "Alert",
+            "owner": "fxspec06",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/fxspec06/enyo-alert/",
+            "submissionDate": "May 26, 2012",
+            "testedPlatforms": "Chrome 19",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "Replaces JavaScript alert() and adds extended functionality"
+        },
+        {
+            "name": "ShiftyAxel.more-arrangers",
+            "displayName": "More Arrangers",
+            "owner": "ShiftyAxel",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "layout",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/ShiftyAxel/more-arrangers",
+            "demoUrl": "http://shiftyaxel.github.com/more-arrangers/index.html",
+            "submissionDate": "June 11, 2012",
+            "testedPlatforms": "Chrome 19+, Safari 5.1+, webOS 2.2.4",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A set of additional cross-platform arrangers for enyo.Panels. Supports hardware-accellerated 3D CSS transitions and falls back to 2D where required."
+        },
+        {
+            "name": "ShiftyAxel.vendor-prefix",
+            "displayName": "Vendor Prefix",
+            "owner": "ShiftyAxel",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/ShiftyAxel/vendor-prefix",
+            "demoUrl": "",
+            "submissionDate": "June 12, 2012",
+            "testedPlatforms": "Chrome 19+, Safari 5.1+, webOS 2.2.4",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A simple plugin for easy access to the host browser's CSS vendor prefix."
+        },
+        {
+            "name": "gts.Joystick",
+            "displayName": "Touch Joystick",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "EnyoJS Canvas",
+                    "version": ""
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/Joystick",
+            "demoUrl": "",
+            "submissionDate": "June 15, 2012",
+            "testedPlatforms": "webOS 3.0.5, Chrome 18 (Windows, Linux), Firefox (Windows, Linux)",
+            "license": "Apache License, Version 2.0",
+            "version": "1.0.0",
+            "blurb": "gts.Joystick is a onscreen controller for games and other apps that would use a joystick. When moving the joystick, the kind will send events for all analog movements and digitial events (ie when the joystick is moved into the up position). The joystick is designed to be absolutely positioned in a relatively positioned container. Image and kind inspiration from http://www.sparkfun.com/products/9182"
+        },
+        {
+            "name": "gts.Keyboard",
+            "displayName": "On Screen Simple Keyboard",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/Keyboard",
+            "demoUrl": "",
+            "submissionDate": "June 15, 2012",
+            "testedPlatforms": "Chrome 18 (Windows, Linux), Firefox (Windows, Linux)",
+            "license": "Apache License, Version 2.0",
+            "version": "1.0.0",
+            "blurb": "gts.Keyboard is a simple on screen keyboard. It was developed for use in a kiosk system."
+        },
+        {
+            "name": "newness.Carousels",
+            "displayName": "Carousels",
+            "owner": "newness",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Enyo Panels"
+                }
+            ],
+            "url": "https://github.com/Newness/Labs/tree/master/Carousels",
+            "demoUrl": "http://www.newnessdevelopments.com/demos/Carousels",
+            "submissionDate": "Jun 17, 2012",
+            "testedPlatforms": "Chrome 18+ (Mac), Safari 5.1+ (Mac), Firefox 5+ (Mac), iOS 5+",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "An Enyo.Panels control that provides the ability to slide back and forth between different views without having to load all the views initially."
+        },
+        {
+            "name": "sugardave.View",
+            "displayName": "View",
+            "owner": "sugardave",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "layout",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/sugardave/View",
+            "demoUrl": "http://sugardave.github.com/View",
+            "submissionDate": "Jun 20, 2012",
+            "testedPlatforms": "Chrome 18+ (Mac), Safari 5.1+ (Mac), Firefox 5+ (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A simple generic view control.  Optional headerComponents and footerComponents properties allow you to easily custom your View.  Works great with Panels!"
+        },
+        {
+            "name": "jmtk.spinner",
+            "displayName": "Spinner (Canvas)",
+            "owner": "JMTK",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": "Beta 5+"
+                }
+            ],
+            "url": "https://github.com/JMTK/canvas-spinner",
+            "demoUrl": "http://jmtk.us.to/#spinner",
+            "submissionDate": "Jun 21, 2012",
+            "testedPlatforms": "Chrome 18+ (Win7), Safari 5.1+ (Win7), Internet Explorer 9 (Win7), HP Touchpad",
+            "license": "Apache 2.0/MIT license",
+            "version": "1.0",
+            "blurb": "A canvas Spinner 'kind'. Has several properties such as color, shape, speed, etc. that can change dynamically. Can be small and compact, or can be big for placing in the middle of the screen."
+        },
+        {
+            "name": "jmtk.fileinput",
+            "displayName": "Decorated File Input",
+            "owner": "JMTK",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": "Beta 5+"
+                }
+            ],
+            "url": "https://github.com/JMTK/decorated-file-input",
+            "demoUrl": "http://jmtk.us.to/#fileinput",
+            "submissionDate": "Jul 5, 2012",
+            "testedPlatforms": "Chrome 18+ (Win7), Safari 5.1+ (Win7), Internet Explorer 9 (Win7)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A decorator for the HTML &lt;input type=\"file\"&gt; or the Enyo 2 kind {kind:\"Input\", type:\"file\"}. View Source README for more information on usage."
+        },
+        {
+            "name": "sugardave.PulloutToolbar",
+            "displayName": "PulloutToolbar",
+            "owner": "sugardave",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "layout",
+                    "version": ""
+                },
+                {
+                    "name": "onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/sugardave/PulloutToolbar",
+            "demoUrl": "http://sugardave.github.com/PulloutToolbar",
+            "submissionDate": "Jul 11, 2012",
+            "testedPlatforms": "Chrome 19 (Mac), Safari 5.1 (Mac), Firefox 13 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A simple pullout toolbar control based on enyo.Popup."
+        },
+        {
+            "name": "MacFJA.Marquee",
+            "displayName": "Marquee",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/marquee.html",
+            "submissionDate": "Jul 12, 2012",
+            "testedPlatforms": "Chrome 20.0.1132.57 (Mac), Safari 5.1.7 (Mac), Firefox 13.0.1 (Mac), Opera 11.64 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "Marquee: Slide too long text"
+        },
+        {
+            "name": "MacFJA.Folding",
+            "displayName": "Folding",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/folding.html",
+            "submissionDate": "Jul 12, 2012",
+            "testedPlatforms": "Chrome 20.0.1132.57 (Mac), Safari 5.1.7 (Mac), Firefox 13.0.1 (Mac), Opera 11.64 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "Fold and unfold part of page"
+        },
+        {
+            "name": "gts.DividerDrawer",
+            "displayName": "Divider Drawer",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                },
+                {
+                    "name": "Layout/Fittable",
+                    "version": ""
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/DividerDrawer",
+            "demoUrl": "",
+            "submissionDate": "July 13, 2012",
+            "testedPlatforms": "Chrome (Linux)",
+            "license": "Apache License, Version 2.0",
+            "version": "2.0.0",
+            "blurb": "Mimics Enyo 1.0 DividerDrawer look and functionality."
+        },
+        {
+            "name": "gts.SelectorBar",
+            "displayName": "Selector Bar",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                },
+                {
+                    "name": "Layout/Fittable",
+                    "version": ""
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/SelectorBar",
+            "demoUrl": "",
+            "submissionDate": "July 13, 2012",
+            "testedPlatforms": "Chrome (Linux)",
+            "license": "Apache License, Version 2.0",
+            "version": "2.0.0",
+            "blurb": "Selector that takes up an entire row. Does not look like a giant button."
+        },
+        {
+            "name": "gts.ToggleBar",
+            "displayName": "Toggle Bar",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                },
+                {
+                    "name": "Layout/Fittable",
+                    "version": ""
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/ToggleBar",
+            "demoUrl": "",
+            "submissionDate": "July 13, 2012",
+            "testedPlatforms": "Chrome (Linux)",
+            "license": "Apache License, Version 2.0",
+            "version": "2.0.0",
+            "blurb": "Displays ToggleButton in an Item row kind. Text is on the left, toggle is on the right."
+        },
+        {
+            "name": "whatfield73.ajaxwebview",
+            "displayName": "Ajax Webview",
+            "owner": "whatfield73",
+            "dependencies": [
+                {
+                    "name": "Enyo 2.0",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/whatfield73/WebView/",
+            "demoUrl": "http://jsfiddle.net/FuUXv/",
+            "submissionDate": "July 19, 2012",
+            "testedPlatforms": "Chrome 19, Android, WP7",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "This is a rework of Josh Marinacci's webview using Ajax and Enyo 2 (used by permission).  It doesn't do everything a webOS webView did but it shouldn't be difficult to add new features.  It allows you to change the sizing of the page easily.  The basic capabilities are that it will load pages and follow clicks of both links and images.  Still to be done for now: process forms when submitted.  Known issues: Doesn't process css for Android 2.3 in webview."
+        },
+        {
+            "name": "gts.TimePicker",
+            "displayName": "Time Picker",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": "2.0-GA"
+                },
+                {
+                    "name": "Onyx",
+                    "version": "2.0-GA"
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/TimePicker",
+            "demoUrl": "",
+            "submissionDate": "November 10, 2012",
+            "testedPlatforms": "Chrome (Linux)",
+            "license": "Apache License, Version 2.0",
+            "version": "2.1.0",
+            "blurb": "Extends onyx.TimePicker. Adds options for minute interval and picker label."
+        },
+        {
+            "name": "phated.Assertions",
+            "displayName": "Assertions",
+            "owner": "phated",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "test",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/phated/enyo-assertions",
+            "demoUrl": "http://phated.github.com/enyo-assertions/",
+            "submissionDate": "August 4, 2012",
+            "testedPlatforms": "Chrome 21 (Linux), Firefox 14.0.1 (Linux), Chromium 18 (Linux)",
+            "license": "MIT License",
+            "version": "0.1.0",
+            "blurb": "Abstracts the enyo.TestSuite finish() method into this.assert calls (similar to the Test Package Wishlist)"
+        },
+        {
+            "name": "MacFJA.GrowTextBox",
+            "displayName": "GrowTextBox",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/onyx/growtextbox.html",
+            "submissionDate": "August 4, 2012",
+            "testedPlatforms": "Safari 5.1.7 (Mac), Firefox 13.0.1 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "Automatic resizing text area (vertical or horizontal or both or none)"
+        },
+        {
+            "name": "MacFJA.UndoRedo",
+            "displayName": "UndoRedo",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/onyx",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/UndoRedo/example.html",
+            "submissionDate": "August 4, 2012",
+            "testedPlatforms": "Safari 5.1.7 (Mac), Firefox 13.0.1 (Mac), Opera 11.64 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "Add to Component the ability to undone properties changes"
+        },
+        {
+            "name": "extras.GridLayout",
+            "displayName": "GridLayout",
+            "owner": "ryanjduffy",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/tiqtech/enyo-extras",
+            "demoUrl": "http://tiqtech.com/gallery/grid.html",
+            "submissionDate": "July 26th, 2012",
+            "testedPlatforms": "Chrome v20",
+            "license": "Apache 2.0",
+            "version": "2.0",
+            "blurb": "Lays out client controls in a grid.  Configurable cell height, width, margin, and alignment.  When the control is resized, the components animate to their new position using CSS transitions."
+        },
+        {
+            "name": "gts.ProgressDialog",
+            "displayName": "Progress Dialog",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/ProgressDialog",
+            "demoUrl": "",
+            "submissionDate": "September 13, 2012",
+            "testedPlatforms": "Chrome 18",
+            "license": "Apache License, Version 2.0",
+            "version": "2.0.0",
+            "blurb": "Progress display dialog with title, text, progress bar, and (optional) cancel button. For easy use, just include an object with the paramaters and their values you wish to update when calling show. ex: this.$['progress'].show( { 'title': 'Some Progress', 'message': 'Linking to some system...', 'progress': 25 });"
+        },
+        {
+            "name": "extras.AutoCompleteInputDecorator",
+            "displayName": "AutoCompleteInputDecorator",
+            "owner": "ryanjduffy",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/tiqtech/enyo-extras",
+            "demoUrl": "http://tiqtech.com/gallery/autocomplete.html",
+            "submissionDate": "September 21st, 2012",
+            "testedPlatforms": "Chrome v20",
+            "license": "Apache 2.0",
+            "version": "2.0",
+            "blurb": "Adds auto-complete to input fields via a Menu control"
+        },
+        {
+            "name": "MacFJA.Griddable",
+            "displayName": "Griddable Layout",
+            "owner": "MacFJA",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MacFJA/enyo2-lib/tree/master/griddable",
+            "demoUrl": "http://macfja.github.com/enyo2-lib/griddable/basic.html",
+            "submissionDate": "oct 13, 2012",
+            "testedPlatforms": "Opera 11.61 (Mac), Safari 5.1.7 (Mac), Google Chrome 18.0.1025.151 (Mac), FireFox 11.0 (Mac)",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A Grid layout"
+        },
+        {
+            "name": "Video",
+            "displayName": "Video",
+            "owner": "DougReeder",
+            "dependencies": [],
+            "url": "https://github.com/DougReeder/bootplate",
+            "demoUrl": "http://hominidsoftware.com/enyoVideo/",
+            "submissionDate": "Oct 18, 2012",
+            "testedPlatforms": "OS X Chrome 22.0.1229.94, OS X Firefox 13.0.1, OS X Safari 5.1.7, Windows XP IE8, Windows XP Firefox, Windows XP Safari, webOS 2.2.4 browser, webOS 3.0.5 browser",
+            "license": "Apache License, Version 2.0",
+            "version": "0.1",
+            "blurb": "a general-purpose video player, which uses HTML 5 video or Flash Media Playback, as appropriate for the platform where it runs.  Currently a proof of concept (you must specify the video source before the Control is rendered)."
+        },
+        {
+            "name": "expandable.RadioGroup",
+            "displayName": "Expandable Radio Group",
+            "owner": "appsbychris",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/appsbychris/enyo2-stuff/tree/master/ExpandableRadioGroup",
+            "demoUrl": "http://jsfiddle.net/3L6jL/14/",
+            "submissionDate": "oct 28, 2012",
+            "testedPlatforms": "Google Chrome (PC), FireFox (PC), Android 4.0+",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "Styles all controls the same width, and correctly rounds all corners, even when the control has to wrap on smaller screens"
+        },
+        {
+            "name": "TitledMenu",
+            "displayName": "Titled Menu",
+            "owner": "appsbychris",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/appsbychris/enyo2-stuff/tree/master/TitledMenu",
+            "demoUrl": "http://jsfiddle.net/sqHSL/",
+            "submissionDate": "nov 7, 2012",
+            "testedPlatforms": "Google Chrome (PC), FireFox (PC), Android 4.0+",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A menu with a title. You can set custom classes and height to the title bar."
+        },
+        {
+            "name": "MachiApps.PinEntry",
+            "displayName": "Pin Entry",
+            "owner": "MachiApps",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/MachiApps/Enyo-2-Components",
+            "demoUrl": "http://machiapps.com/Components/PinEntry.html",
+            "submissionDate": "Nov. 9, 2012",
+            "testedPlatforms": "Safari 5.1.5 (Windows), Google Chrome 18.0.1025.152 (Windows)",
+            "license": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "version": "2.0",
+            "blurb": "Four Digit Pin Entry Form"
+        },
+        {
+            "name": "android.HSnapScroller",
+            "displayName": "android.HSnapScroller",
+            "owner": "appsbychris",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/appsbychris/enyo2-stuff/tree/master/android.HSnapScroller",
+            "demoUrl": "http://appsbychris.net/snapscrollerdemo/",
+            "submissionDate": "nov 23, 2012",
+            "testedPlatforms": "Google Chrome (PC), Android 4.0+",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A horizontal snap scroller for android and webkit browsers. Supports infinite views, better reaction time on android vs. panels."
+        },
+        {
+            "name": "tld.Shape2D",
+            "displayName": "Shape2D",
+            "owner": "pcimino",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Canvas",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/pcimino/Shape2D.git",
+            "demoUrl": "http://jsfiddle.net/pcimino/3utgx/",
+            "submissionDate": "December 8, 2012",
+            "testedPlatforms": "webOS 3.0.5, webOS 2.2.4, Google Chrome Version 23.0.1271.91 m (Windows),  Fire Fox 16.0.2 (Windows)",
+            "license": "MIT License",
+            "version": "1.0",
+            "blurb": "Basic canvas shapes wrapped as an Enyo package."
+        },
+        {
+            "name": "webosports.webos-ports-lib",
+            "displayName": "webos-ports-lib",
+            "owner": "webosports",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "Onyx",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/webOS-ports/webos-ports-lib",
+            "demoUrl": "",
+            "submissionDate": "December 18, 2012",
+            "testedPlatforms": "Open webOS, webOS 3.0.5, webOS 2.2.4, Google Chrome",
+            "license": "Apache 2.0",
+            "version": "1.0",
+            "blurb": "A selection of additional enyo2 kinds to aid development for Open webOS, including Random Tagline Titlebars, cross-device Back Gesture handling and more to come!"
+        },
+        {
+            "name": "tld.Gravatar",
+            "displayName": "Gravatar",
+            "owner": "pcimino",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/pcimino/Gravatar.git",
+            "demoUrl": "http://jsfiddle.net/pcimino/VBNSM/",
+            "submissionDate": "December 18, 2012",
+            "testedPlatforms": "webOS 3.0.5, webOS 2.2.4, Google Chrome Version 23.0.1271.91 m (Windows),  Fire Fox 16.0.2 (Windows)",
+            "license": "MIT License",
+            "version": "1.0",
+            "blurb": "Easy drop in to provide an image of the user's avatar, if their email is registered with https://en.gravatar.com/"
+        },
+        {
+            "name": "gts.IntegerPicker",
+            "displayName": "Integer Picker",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": "2.1"
+                },
+                {
+                    "name": "Onyx",
+                    "version": "2.1"
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/IntegerPicker",
+            "demoUrl": "",
+            "submissionDate": "January 05, 2013",
+            "testedPlatforms": "Chrome (Linux)",
+            "license": "Apache License, Version 2.0",
+            "version": "2.1.0",
+            "blurb": "Integer picker (extending Onyx.Picker). Set min, max, step, and value as needed."
+        },
+        {
+            "name": "jb.InAppBrowser",
+            "displayName": "InAppBrowser",
+            "owner": "cayasso",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/cayasso/InAppBrowser",
+            "demoUrl": "",
+            "submissionDate": "January 18, 2013",
+            "testedPlatforms": "iOS 5.1, iOS 6",
+            "license": "MIT License",
+            "version": "1.0",
+            "blurb": "A little InAppBrowser(new PhoneGap 2.3+ feature) wrapper for Enyo 2."
+        },
+        {
+            "name": "gts.EventMenu",
+            "displayName": "Event Menu",
+            "owner": "GlitchTechScience",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": "2.1"
+                },
+                {
+                    "name": "Onyx",
+                    "version": "2.1"
+                }
+            ],
+            "url": "https://bitbucket.org/GlitchTechScience/gts-plugins/src/master/EventMenu",
+            "demoUrl": "",
+            "submissionDate": "January 31, 2013",
+            "testedPlatforms": "Chrome (Linux)",
+            "license": "Apache License, Version 2.0",
+            "version": "2.1.0",
+            "blurb": "Extends onyx.Menu to work with enyo.Popup#showAtEvent instead of a set activator. showAtEvent accepts a touch event as its parameter. This Menu is not designed to be coupled with an activating button."
+        },
+        {
+            "name": "rwatkins.Panorama",
+            "displayName": "Panorama Control",
+            "owner": "rwatkins",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "layout",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/ryanwatkins/panorama",
+            "demoUrl": "http://www.ryanwatkins.net/software/panorama",
+            "submissionDate": "Feb 10, 2013",
+            "testedPlatforms": "Chrome 24+, Safari 6.0.2+, Firefox 17+, Windows Phone 8.0",
+            "license": "Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.",
+            "version": "1",
+            "blurb": "An Enyo 2.0 control to roughly emulate the Windows Phone horizontal scrolling Panorama control with a parallax effect."
+        },
+        {
+            "name": "rwatkins.PivotMenu",
+            "displayName": "PivotMenu Control",
+            "owner": "rwatkins",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "layout",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/ryanwatkins/pivotmenu",
+            "demoUrl": "http://www.ryanwatkins.net/software/pivotmenu",
+            "submissionDate": "Feb 10, 2013",
+            "testedPlatforms": "Chrome 24+, Safari 6.0.2+, Firefox 17+, Windows Phone 8.0",
+            "license": "Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.",
+            "version": "1",
+            "blurb": "An Enyo 2.0 control to roughy emulate the Windows Phone Pivot Menu control that provides a 'tabbed'-like control for switching between panels with custom titles."
+        },
+        {
+            "name": "Tally",
+            "displayName": "Tally List",
+            "owner": "jjacobsohn",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                },
+                {
+                    "name": "layout",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/johannjacobsohn/Tally",
+            "demoUrl": "http://johannjacobsohn.github.com/Tally/sample/",
+            "submissionDate": "Mar 18, 2013",
+            "testedPlatforms": "Chrome 25, iOS 6, Firefox 19",
+            "license": "MIT",
+            "version": "1",
+            "blurb": "A simple tally list kind"
+        },
+        {
+            "name": "extras.TagInput",
+            "displayName": "TagInput",
+            "owner": "ryanjduffy",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/tiqtech/enyo-extras",
+            "demoUrl": "http://tiqtech.github.com/enyo-extras/index.html#/~/input",
+            "submissionDate": "March 28, 2013",
+            "testedPlatforms": "Chrome",
+            "license": "Apache 2.0",
+            "version": "2.0",
+            "blurb": "Input control that prepends removable 'tags' within the InputDecorator. Modeled off the tagging control in the Tumblr post UI."
+        },
+        {
+            "name": "extras.TypeAheadInput",
+            "displayName": "TypeAheadInput",
+            "owner": "ryanjduffy",
+            "dependencies": [
+                {
+                    "name": "Enyo 2",
+                    "version": ""
+                }
+            ],
+            "url": "https://github.com/tiqtech/enyo-extras",
+            "demoUrl": "http://tiqtech.github.com/enyo-extras/index.html#/~/input",
+            "submissionDate": "March 28, 2013",
+            "testedPlatforms": "Chrome",
+            "license": "Apache 2.0",
+            "version": "2.0",
+            "blurb": "Input control that will suggest values matching what the user has started typing"
+        }
+    ]
+}
