@@ -1,13 +1,13 @@
 enyo.ready(function () {
 	
 	enyo.kind({
-		name: "Bootplate.MessageController",
+		name: "enyojs.Gallery.MessageController",
 		kind: "enyo.Controller",
 		data: "Hello World"
 	});
 	
 	enyo.kind({
-		name: "Bootplate.MessagesController",
+		name: "enyojs.Gallery.MessagesController",
 		kind: "enyo.ArrayController"
 	});
 	

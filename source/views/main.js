@@ -1,7 +1,7 @@
 enyo.ready(function () {
 
 	enyo.kind({
-		name: "Bootplate.MainView",
+		name: "enyojs.Gallery.MainView",
 		kind: "FittableRows",
 		fit: true,
 		bindings: [{
