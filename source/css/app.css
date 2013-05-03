@@ -5,3 +5,63 @@
 .nice-padding {
 	padding: 15px;
 }
+
+.toolbar-logo {
+	margin: -8px 0 -16px;
+}
+
+/* */
+
+.name {
+	font-weight: bold;
+	font-size: 16px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.owner {
+	display: inline-block;
+	font-size: 14px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.links {
+	display: inline-block;
+}
+
+.links > * {
+	padding-left: 10px;
+}
+
+.icon-holder {
+	text-align: center;
+	padding-top: 16px;
+	background-color: white;
+}
+
+.icon {
+	width: 96px;
+	height: 96px;
+}
+
+.blurb {
+	padding: 18px 0 20px;
+	font-size: 14px;
+	font-style: italic;
+}
+
+/* ListItem */
+
+.listitem {
+	height: 50px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.listitem:active {
+	background-color: #cde7fe;
+	box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
