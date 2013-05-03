@@ -1,3 +1,16 @@
+/* ListItem */
+
+.listitem {
+	height: 50px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.listitem:active {
+	background-color: #cde7fe;
+	box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
 /* Card */
 
 .card {

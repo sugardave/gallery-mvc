@@ -53,15 +53,55 @@
 	font-style: italic;
 }
 
-/* ListItem */
+/* Details */
 
-.listitem {
-	height: 50px;
-	padding: 10px;
-	border-bottom: 1px solid #ddd;
+.details {
+	position: absolute;
+	z-index: 10;
+	border-radius: 16px;
+	background-color: white;
+	font-size: 14px;
 }
 
-.listitem:active {
-	background-color: #cde7fe;
-	box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.2);
+.details-header {
+	padding: 22px 48px 16px;
+	border-bottom: 1px solid #eee;
+}
+
+.details-buttons {
+	text-align: center;
+	padding: 32px 0 16px;
+}
+
+.details-buttons .onyx-button {
+	font-size: 14px;
+	margin: 4px 16px;
+	width: 120px;
+}
+
+.details-scroller {
+	padding-bottom: 10px;
+}
+
+.details-scroller-content {
+	padding: 0px 48px 22px;
+}
+
+.details-close {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	z-index: 1;
+}
+
+.details .name {
+	font-size: 24px;
+	padding-bottom: 4px;
+}
+
+.details .icon {
+	width: auto;
+	height: auto;
+	max-height: 200px;
+	max-width: 200px;
 }
