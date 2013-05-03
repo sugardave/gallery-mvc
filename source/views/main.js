@@ -19,7 +19,7 @@ enyo.ready(function () {
 				{name: "cards", classes: "cards"},
 				{name: "list", classes: "list"}
 			]},
-			{name: "detailPopup", kind: "enyojs.Gallery.DetailPopup", showing: false, centered: true, modal: true, floating: true, info: "foo"},
+			{name: "detailPopup", kind: "enyojs.Gallery.DetailPopup", showing: false, centered: true, modal: true, floating: true, controller: new enyo.ObjectController()},
 		],
 		changeState: function(inSender, inEvent) {
 			app.controllers.state.set("view", "detailView");
@@ -77,58 +77,14 @@ enyo.ready(function () {
 			return ls;
 		},
 		itemTap: function(inSender) {
+			var dc = this.$.detailPopup.controller;
+			dc.set("data", inSender.info);
+			app.controllers.state.set("view", "detailView");
 			this.log(inSender.info.name);
 			return true;
 		},
 		preventTap: function(inSender, inEvent) {
 			inEvent.preventTap();
-		}
-	});
-
-	enyo.kind({
-		name: "enyojs.Gallery.ListItem",
-		classes:"listitem",
-		bindings: [
-			{from: ".controller.data", to: ".info"}
-		],
-		components: [
-			{name: "name", classes: "name"},
-			{name: "owner", classes: "owner"}
-		],
-		transformData: function(inData) {
-			if (inData && inData.info) {
-				inData = inData.info;
-			}
-			return inData;
-		},
-		infoChanged: function() {
-			var i = this.info;
-			if (!i) {
-				return;
-			}
-			this.$.name.setContent(i.displayName);
-			this.$.owner.setContent("by " + i.owner.name);
-		}
-	});
-
-	enyo.kind({
-		name: "enyojs.Gallery.Card",
-		kind: "enyojs.Gallery.ListItem",
-		kindClasses: "card",
-		components: [
-			{classes: "card-topbar", components: [
-				{name: "name", classes: "name"},
-				{name: "owner", classes: "owner"}
-			]},
-			{classes: "icon-holder", components: [
-				{name: "icon", kind: "Image", classes: "icon"}
-			]}
-		],
-		infoChanged: function() {
-			this.inherited(arguments);
-			if (this.info) {
-				this.$.icon.setSrc("assets/gallery_images/" + this.info.name + ".jpg");
-			}
 		}
 	});
 	

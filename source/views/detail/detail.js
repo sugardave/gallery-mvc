@@ -3,9 +3,9 @@ enyo.ready(function() {
 		name: "enyojs.Gallery.DetailPopup",
 		kind: onyx.Popup,
 		layoutKind: enyo.FittableRowsLayout,
-		bindings: [
-			{from: ".info", to: ".$.cardDetail.controller.info"}
-		],
+		//kindClasses: "details",
+		classes: "details",
+		bindings: [],
 		components: [
 			{name: "cardDetail", kind: "enyojs.Gallery.CardDetail", controller: enyo.ObjectController}
 		],
